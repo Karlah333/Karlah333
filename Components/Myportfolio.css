@@ -1,0 +1,124 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+}
+body,
+html {
+  height: 100%;
+  color: black;
+  line-height: 1.8;
+}
+#TECH {
+  border-radius: 15px;
+}
+#RED {
+  background-color: #ffcccb;
+  border-radius: 15px;
+}
+#UST {
+  background-color: rgb(250, 244, 159);
+  border-radius: 15px;
+}
+.minititle {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.miniminititle {
+  font-style: italic;
+  font-weight: bold;
+}
+.line {
+  text-decoration: underline;
+}
+#image {
+  width: 90%;
+  height: 90%;
+}
+#image1 {
+  width: 50%;
+  height: 100%;
+}
+#image2 {
+  width: 80%;
+  height: 200%;
+}
+a:link {
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+/* Create a Parallax Effect */
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.title {
+  font-size: 30px;
+  font-family: "Lato";
+}
+
+.date {
+  font-weight: bold;
+}
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url("../image/1-edited.jpg");
+  min-height: 100%;
+  padding-top: 10%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("../image/2.jpg");
+  min-height: 400px;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: font;
+}
+
+/* Third image (Contact) */
+
+.w3-wide {
+  letter-spacing: 10px;
+}
+.w3-hover-opacity {
+  cursor: pointer;
+}
+@font-face {
+  font-family: font;
+  src: url(LibreBaskerville-Italic.ttf);
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1,
+  .bgimg-2 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
