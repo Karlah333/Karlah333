@@ -87,14 +87,14 @@ a:visited {
 }
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url("../image/1-edited.jpg");
+  background-image: url("https://res.cloudinary.com/dl2aw4fwr/image/upload/v1597232580/WEBSITE/1-edited_le7say.jpg");
   min-height: 100%;
   padding-top: 10%;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: url("../image/2.jpg");
+  background-image: url("https://res.cloudinary.com/dl2aw4fwr/image/upload/v1597232579/WEBSITE/2_vzft43.jpg");
   min-height: 400px;
   font-size: 50px;
   font-weight: bold;
