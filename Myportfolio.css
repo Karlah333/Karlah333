@@ -86,10 +86,6 @@ a:visited {
   font-weight: bold;
 }
 
-.caps {
-  font-weight: bold;
-  font-size: 30px;
-}
 /* First image (Logo. Full height) */
 .bgimg-1 {
   background-image: url("https://res.cloudinary.com/dl2aw4fwr/image/upload/v1597232580/WEBSITE/1-edited_le7say.jpg");
